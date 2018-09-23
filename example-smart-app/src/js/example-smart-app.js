@@ -27,7 +27,7 @@
           type: 'Observation',
           query: {
             code: {
-              $or: ['http://loinc.org|26478-8', 'http://loinc.org|2345-7']
+              $or: ['http://loinc.org|39156-5', 'http://loinc.org|8867-4']
             }
           }
         });
@@ -155,7 +155,7 @@
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
     $('#lymph').html(p.lymph);
-    
+
     // Cerner SoF Tutorial Observations
 
     // $('#height').html(p.height);
